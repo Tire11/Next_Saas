@@ -38,7 +38,7 @@ export default function Hero() {
                     <input
                         type="email"
                         placeholder="Enter your email"
-                        className="bg-transparent px-1 md:flex-1"
+                        className="bg-transparent px-1 md:flex-1 w-full"
                     />
                     <Button
                         type="submit"
