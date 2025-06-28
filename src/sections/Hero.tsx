@@ -16,7 +16,7 @@ export default function Hero() {
                     <Image src={designExample2Image} alt="Design Example 2" />
                 </div>
                 <div className="absolute left-56 top-96 hidden lg:block">
-                    <Pointer name="Andrea" />
+                    <Pointer name="Tireni" />
                 </div>
                 <div className="absolute right-80 -top-4 hidden lg:block">
                     <Pointer name="Bryan" color="red" />

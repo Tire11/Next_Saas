@@ -26,7 +26,22 @@ export default function LogoTicker() {
                 <h3 className="text-center text-white/50 text-xl">
                     Already chosen by these market leaders
                 </h3>
-                <div className="overflow-hidden mt-12 [mask-image:linear-gradient(to_right, transparent,black_10%,black_90%,transparent)]">
+                {/* <div className="overflow-hidden mt-12 [mask-image:linear-gradient(to_right, transparent,black_10%,black_90%,transparent)] ">
+                    <div className="flex gap-24 pr-24">
+                        {logos.map((logo) => (
+                            <Image
+                                src={logo.image}
+                                key={logo.name}
+                                alt={logo.name}
+                            />
+                        ))}
+                    </div>
+                </div> */}
+                <div
+                    className="overflow-hidden mt-12 
+  [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] 
+  [mask-type:alpha] [-webkit-mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] [-webkit-mask-type:alpha]"
+                >
                     <div className="flex gap-24 pr-24">
                         {logos.map((logo) => (
                             <Image

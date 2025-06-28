@@ -16,6 +16,13 @@ const config: Config = {
                 lg: "4rem",
             },
         },
+        extend: {
+            maskImage: {
+                fade: "linear-gradient(to bottom, transparent, black 10%, black 90%, transparent)",
+                horizontalFade:
+                    "linear-gradient(to right, transparent, black 10%, black 90%, transparent)",
+            },
+        },
         fontFamily: {
             sans: ["var(--font-inter)", "sans-serif"],
         },
